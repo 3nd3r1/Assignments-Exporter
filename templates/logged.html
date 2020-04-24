@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+
+        <h1>Logged in: {{user.name}}  | <a href="/logout">Logout</a></h1>
+        <br />
+        <ul>
+            <li><pre>{{session |tojson(indent=4,sort_keys=True) }}</pre></li>
+            <li><pre>{{tokens }}</pre></li>
+        </ul>
+    
+</body>
+</html>

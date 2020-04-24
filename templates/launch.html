@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <center>
+        
+        <h1>Export Assignments:</h1>
+        <br />
+        <form action="/auth" method="POST">
+            <li>
+                <h3>Export to:</h3>
+                <select name="exportto" id="exportto">
+                    <option value="todo">Microsoft To-do</option>
+                    <option value="calender">Calender</option>
+                    <option value="text">Text</option>
+                </select>
+            </li>
+            <li>
+                <h3>Updater (Beta):</h3>
+                <select name="update" id="update">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </li>
+            <li><input type="submit" value="Authenticate"/></li>
+        </form>
+    </center>
+</body>
+</html>
+
