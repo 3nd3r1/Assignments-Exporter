@@ -1,2 +1,7 @@
 # Assignments-Exporter
- A azure application to export teams assignments
+(UNDERWORK do not use!)
+ A web application that exports teams assignments to some format.
+ 
+ TODO:
+ - Better website interface
+ 
