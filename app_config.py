@@ -3,13 +3,13 @@ import os
 #Assigments Exporter config
 
 #A client secret (change this)
-CLIENT_SECRET = "8dsua883m39d9m3i9mfm93m9fasd"
+CLIENT_SECRET = "39fd2j893f8j823dj82j38dj283d33"
 
 #Auth page common for non all accounts
 AUTHORITY = "https://login.microsoftonline.com/common" 
 
 #Your application client id
-CLIENT_ID = "aa93cfb0-41f1-47d3-b93a-8e04a43da5bc"
+CLIENT_ID = ""
 
 #Assignments-Exporter app version
 APP_VERSION = "v0.1"
